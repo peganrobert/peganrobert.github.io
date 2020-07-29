@@ -1,0 +1,20 @@
+{
+    "id": 3054638,
+    "name": "Budapest",
+    "state": "",
+    "country": "HU",
+    "coord": {
+      "lon": 19.08333,
+      "lat": 47.5
+    }
+  },
+  {
+    "id": 3054643,
+    "name": "Budapest",
+    "state": "",
+    "country": "HU",
+    "coord": {
+      "lon": 19.039909,
+      "lat": 47.498009
+    }
+  },

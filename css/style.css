@@ -37,12 +37,12 @@ td {
 .menu {
     display: inline;
     color: white;
-    padding: 20px;
+    padding: 0px;
     border-right: solid 2px white;
     
 }
 
-.navbar {
+.navbarS {
     background-color: rgb(7, 7, 128);
     color: rgb(255, 255, 255);
     margin: 5px;
@@ -52,6 +52,7 @@ td {
 }
 a {
     color: inherit;
+    padding: 20px;
 }
 
 a:hover {
@@ -75,4 +76,32 @@ a:hover {
 .harmadikoszlop {
     width: 20%;
     text-align: right;
+}
+
+small {
+    font-size:8px;
+    
+}
+
+.note {
+    font-size: 10px;
+    }
+
+.menuhivatkozas {
+    color: white;
+}
+
+#feltet {
+    font-family: "quicksand";
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width:100%;
+    padding: 0.3rem;
+}
+
+.kozepre {
+    margin: 10px 33%
 }

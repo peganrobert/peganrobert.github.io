@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="/js/main.js"></script>
+    <title>Rendelés</title>
+</head>
+
+<body>
+
+    <ul class="navbarS">
+        <li class="menu">
+            <a href="akciok.html" class="menuhivatkozas">Akciók</a>
+        </li>
+        <li class="menu">
+            <a href="etlap.html" class="menuhivatkozas">Étlap</a>
+        </li>
+        <li class="menu">
+            <a href="elerhetoseg.html" class="menuhivatkozas">Elérhetőség</a>
+        </li>
+
+        <li class="menu">
+            <a href="rendeles.html" class="menuhivatkozas">Rendelés</a>
+        </li>
+    </ul>
+
+    <div class="keretezettFejlec" style="margin-bottom: 20px;">
+        <h2>Kérjük adja le rendelését!</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6">
+                <input id="nevInput" class="form-control" type="text" placeholder="Név">
+
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6">
+                <input id="emailInput" class="form-control" type="email" placeholder="E-mail">
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6">
+                <input id="cimInput" class="form-control" type="text" placeholder="Szállítási cím">
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 20px;">
+        <div class="form-group">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+                    <label id="feltet" for="feltet">Válasszon feltétet:</label>
+                    <select class="form-control" id="feltet" multiple>
+                        <option value="csalamade">Csalamádé</option>
+                        <option value="uborka">Uborka</option>
+                        <option value="hagyma">Pirított hagyma</option>
+                        <option value="lekvar">Lekvár</option>
+                    </select>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="font-family: quicksand;">
+        <div class="form-group">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+                    <h4>Válasszon fizetési módot!</h4>
+                    <input type="radio" id="bank" name="fizetesiMod" value="bank">
+                    <label for="bank">Bankkártyával</label><br>
+                    <input type="radio" id="penz" name="fizetesiMod" value="penz">
+                    <label for="penz">Készpénzzel</label><br>
+                </div>
+                <div class="col"></div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" style="font-family: quicksand;">
+        <div class="form-group">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+                    <button class="bg-primary bg" onclick="getData()">Megrendelem</button>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<!--<button type="submit">Megrendelem</button>

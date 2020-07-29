@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="/js/main.js"></script>
     <title>Teszt</title>
 </head>
 
 <body>
-    <ul class="navbar">
+    <ul class="navbarS">
         <li class="menu">
             <a href="akciok.html">Akciók</a>
         </li>
@@ -19,8 +21,32 @@
         <li class="menu">
             <a href="elerhetoseg.html">Elérhetőség</a>
         </li>
+        <li class="menu">
+            <a href="rendeles.html">Rendelés</a>
+        </li>
     </ul>
 
+    <div class="keretezettFejlec">
+        <h1>Napi hőmérséklet</h1>
+
+    </div>
+
+    <div class="container" style="font-family: quicksand;">
+
+        
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+                    <h3 class="center" id="idojaras"></h3>
+                </div>
+                <div class="col"></div>
+            </div>
+        
+    </div>
+<div class="kozepre">
+    <button class="center" id=getDataBtn onclick="startGetData()">időjárás</button>
+</div>
+    
 </body>
 
 </html>
